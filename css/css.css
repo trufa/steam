@@ -1,0 +1,55 @@
+.separacion{
+    margin-top: -40px;
+    text-align: center;
+}
+
+.text {
+  background-color: white;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  
+}
+
+footer{
+  background-color: black;
+  padding: 20px;
+}
+
+.perfil  {
+
+  text-align: center;
+}
+
+.imgperfil{
+
+  width: 150px;
+  
+  height: 150px;
+}
+
+
+.imggrupal {
+
+  width: 400px;
+  height: 400px;
+}
+
+.icon{
+
+  width: 40px;
+  height: 40px;
+
+}
+
+.social-media{
+
+  text-align: center;
+}
+
+.video{
+
+  width: 500px;
+  height: 500px;
+  
+}
