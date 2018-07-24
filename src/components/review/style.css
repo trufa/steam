@@ -1,0 +1,177 @@
+#necesario{
+  color: red;
+}
+.imgJuego {
+  height: 482px;
+  background-size: cover;
+  background-image: url("fortnite.jpg");
+  transition: 1.0s;
+}
+
+.Comentarios {
+  overflow: scroll;
+}
+
+.listaComentarios {
+    height: 272px;
+}
+img {
+  /*height: 516px!important*/
+}
+
+.imgComentario {
+  background-size: cover;
+  height: 60px;
+}
+
+.nombreUsuario {
+  font-size: 25px;
+}
+
+.comentario {
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.contenedorImgJuego {
+  background-color: #ff7517;
+  border-bottom: 1px solid #f6f4f4;
+  padding: 25px;
+}
+
+.segundaSeccion {
+  background-color: #3e3939;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.texto {
+  color: #f6f4f4;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.separacion {
+  background-color: #f6f4f4;
+  width: 1px;
+}
+
+/*.seccionComentarios {
+  border-left: 1px solid #f6f4f4;
+}*/
+
+.img-fluid,.carousel-inner, .imgJuego, .seccionComentarios {
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 2px 2px 43px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 43px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 43px 8px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff7517;
+  border-radius: 10px 10px 10px 10px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+.ec-stars-wrapper {
+	/* Espacio entre los inline-block (los hijos, los `a`)
+	   http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+	font-size: 0;
+	/* Podríamos quitarlo,
+		pero de esta manera (siempre que no le demos padding),
+		sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+		también se esté haciendo hover a alguna estrella */
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	/* Volver a dar tamaño al texto */
+	font-size: 32px;
+	font-size: 2rem;
+
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: #ff7517;
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
+#comentar{
+transition: 0.5s;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+}
+
+.animate{
+  text-decoration: none!important;
+  transition: 0.5s;
+}
+
+.animate:hover{
+  transform: scale(1.1);
+}
+
+.imgJuego:hover{
+  transform: scale(1.010);
+}
+
+#animated{
+  transition: 2.5s;
+}
+
+.animated:hover{
+  transform: scale(1.010);
+}
+
+.center{
+  text-align: center;
+}
+
+.blanco{
+  color:white;
+}
+a {
+      text-decoration: none;
+}
+
+.fecha{
+  color: rgb(193, 193, 193);
+  margin-left: 59px;
+  margin-top: -26px;
+  font-size: 12px;
+}
+
+.alineado{
+  vertical-align: center; /* no funciona ni con important no se porque*/
+}
+.naranja{
+  color: #ff7517!important;
+}
+.form-control{
+  min-height: 41px;
+}
